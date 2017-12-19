@@ -20,7 +20,7 @@ With Keras, I've tried my best to implement deep reinforcement learning algorith
 Here's the architecture overview of DNQ model in this work:
 
 <p align="center"> 
-<img src="fig/workflow.jpg">
+<img src="fig/dqn_flow.jpg">
 </p>
 
 
