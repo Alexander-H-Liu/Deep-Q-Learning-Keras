@@ -7,7 +7,9 @@ This is an implementation of Deep Q Learning (DQN) playing Breakout from OpenAI'
 
 Here's a quick demo of the agent trained by DQN playing breakout.
 
-![](fig/breakout.gif)
+<p align="center"> 
+<img src="fig/breakout.gif">
+</p>
 
 With Keras, I've tried my best to implement deep reinforcement learning algorithm without using complicated tensor/session operation. In this project, the following techniques have been implemented:
 
@@ -15,10 +17,18 @@ With Keras, I've tried my best to implement deep reinforcement learning algorith
 - Double Q Learning
 - Dueling Network
 
-Here's the architecture overview and the learning curve of DNQ model in this work. 
+Here's the architecture overview of DNQ model in this work:
 
-![](fig/workflow.jpg) ![](learning_curve.jpg)
+<p align="center"> 
+<img src="fig/workflow.jpg">
+</p>
 
+
+And the learning curve:
+
+<p align="center"> 
+<img src="fig/learning_curve.jpg">
+</p>
 
 
 The project is derived from an assignment of the course [Applied Deep Learning](https://www.csie.ntu.edu.tw/~yvchen/f106-adl/) I took during 2017 fall, all works are currrently not in maintenance. (But I'll try my best to help if there's question)
