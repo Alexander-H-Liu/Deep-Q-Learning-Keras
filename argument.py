@@ -20,7 +20,6 @@ def add_arguments(parser):
     parser.add_argument('--save_network_path', type=str, default = "saved_dqn_networks/", help='')
     parser.add_argument('--save_summary_path', type=str, default = "dqn_summary/", help='')
     parser.add_argument('--test_dqn_model_path', type=str, default = "pretrained_model/dqn_w.h5", help='')
-    parser.add_argument('--test_pg_model_path', type=str, default = "pg_model.h5", help='')
     parser.add_argument('--exp_name', type=str, default = "breakout_dqn", help='')
     parser.add_argument('--gpu_frac', type=float, default = 1.0, help='Set GPU use limit for tensorflow')
     parser.add_argument('--ddqn', type=bool, default = False, help='Set True to apply Double Q-learning')
